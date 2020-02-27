@@ -21,7 +21,7 @@ The jsStaircase library allows you to:
 - Track the properties of each trial, such as whether the response was correct and whether it triggered a direction reversal.
 - Track the properties of the staircase, such as the number of trials. 
 - Use staircase methods to access arrays with the step sizes, difficulty values, directions, reversals, etc. from all trials, and the average difficulty level across the last N reversals.
-- Run multiple staircases in parallel, e.g. to track performance separately for each condition, when different conditions are mixed together in the same block of trials.
+- Run multiple staircases in parallel, e.g. to track performance and adjust the difficulty separately for conditions that are mixed together in the same block of trials.
 - Decide which staircase you want to run on the next trial, or allow the library to select randomly from those that are still actively running (if there is more than one staircase).
 - Specify the maximum number of times that the library can select the same staircase consecutively (if there is more than one staircase).
 
