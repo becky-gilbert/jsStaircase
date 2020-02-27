@@ -1,5 +1,5 @@
 // Becky Gilbert
-// Based on @hadrienj's StaircaseJS code: https://github.com/hadrienj/StaircaseJS
+// Based on Hadrien Jean's StaircaseJS code: https://github.com/hadrienj/StaircaseJS
 
 function Staircase(stairs) {
   this.stairs = {};
